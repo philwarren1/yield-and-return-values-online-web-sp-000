@@ -4,7 +4,8 @@ def hello(array)
   i = 0
   collection = []
   while i < array.length
-    colection << yield(array[i])
+    colection << 
+  yield(array[i])
     i += 1
   end
   collection
